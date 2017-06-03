@@ -67,13 +67,18 @@ img.home-bg{
 	width: 100%;
 }
 
+.home-row-last {
+  display: block;
+  width: 100%;
+}
+
 // Connect with Buyers
 
 .buyers{
 	background-color: #fff;
 	margin-top: -10px;
 	padding-top: 30px;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 img.buyers-photo {
@@ -101,6 +106,7 @@ img.sellers-photo {
 
 .established-content {
 	text-align: center;
+  padding-bottom: 10px;
 }
 
 .established {
@@ -205,11 +211,11 @@ section#contact .text-danger {
 
 // footer
 
-.footer {
+.footer-top {
 	border-radius: 3px;
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
 	background-color: white;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .footer-bottom {
