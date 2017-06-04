@@ -3,7 +3,14 @@ Rails.application.routes.draw do
 
   get "about" => "pages#about"
   get "services" => "pages#services"
+  get "ecuador" => "pages#ecuador"
+  get "colombia" => "pages#colombia"
+  get "nicaragua" => "pages#nicaragua"
+  get "guatemala" => "pages#guatemala"
   get "contact" => "pages#contact"
+
+  get "terms" => "pages#terms"
+  get "privacy" => "pages#privacy"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
