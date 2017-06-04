@@ -1,7 +1,8 @@
 <div class="container">
 	<div class="jumbotron">
-		<center><h1>About Us</h1></center>
-		<p>Plantains.com is an association fostering mutually-beneficial relationships between
+		<div class="about-us">
+			<%= image_tag("photos/about-us.jpg", class: "about-us-photo") %><br>
+		<br><p>Plantains.com is an association fostering mutually-beneficial relationships between
 		growers, suppliers and distributors of Plantains Worldwide. We specialize in the import
 		and Service of Plantains, and take great pride in the quality of our products. Over 35
 		years of experience in the produce business has built strong and extensive business
@@ -19,9 +20,11 @@
 		<p>We strive to make our supplier and consumer relationships a win…win…win…for all
 		involved.</p>
 
-		<p>History<br>
+		<%= image_tag("photos/our-history.jpg", class: "our-history-photo") %><br>
 
-		For the past 35 years Alex Machuca has built a business that has expanded to include a
+		<center><h2><strong>Growing, supplying and distributing Plantains since 1978...</strong></h2></center>
+
+		<br><p>For the past 35 years Alex Machuca has built a business that has expanded to include a
 		vast array of exotic and tropical fruits and vegetables from a myriad of countries around
 		the world. An original 400 boxes of imported plantains back in 1976 grew to 25,000
 		boxes a week, and is now only one of the many products of his expertise. In his 35 years
@@ -60,5 +63,7 @@
 		son, worked with her from start to finish.</p>
 		<p>In 1987, Azucena Machuca at the young age of 52, succumbed to cancer, leaving behind
 		a legacy and strong foothold for growth, development and vast experience, all of which Alex Machuca is proud to share with you.</p>
+	</div> 
+		<center><h3><%= link_to "Contact Us...", contact_path %></h3></center>
 	</div>
 </div>
