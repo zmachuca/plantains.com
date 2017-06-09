@@ -13,7 +13,19 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                    <select data-drupal-selector="edit-field-contact-title" class="form-control required form-control" id="title" name="field_contact_title" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
+                                        <option value="_none">Title *</option>
+                                        <option value="Request">Ms</option>
+                                        <option value="Sales">Mrs</option>
+                                        <option value="Buy">Mr</option>
+                                    </select>
+                                     </div>
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Your Full Name *" id="name" required="" data-validation-required-message="Please enter your Full Name.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="company" class="form-control" placeholder="Your Company *" id="name" required="" data-validation-required-message="Please enter your Company Name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
@@ -21,11 +33,15 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="skype" class="form-control" placeholder="Your Skype ID *" id="name" required="" data-validation-required-message="Please enter your Skype ID.">
+                                        <input type="text" name="country" class="form-control" placeholder="Your Country *" id="name" required="" data-validation-required-message="Please enter your country.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="country" class="form-control" placeholder="Your Country *" id="name" required="" data-validation-required-message="Please enter your country.">
+                                        <input type="city" name="city" class="form-control" placeholder="Your City/Province *" id="city" required="">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="skype" class="form-control" placeholder="(Optional) Your Skype ID *" id="name">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
@@ -35,7 +51,25 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" name="tel" class="form-control" placeholder="(Optional) Your Phone *" id="phone" required="">
+                                    <select data-drupal-selector="edit-field-contact-subject" class="form-select required form-control" id="subject" name="field_contact_subject" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
+                                        <option value="_none">Subect *</option>
+                                        <option value="Request">Request</option>
+                                        <option value="Sales">Sales</option>
+                                        <option value="Buy">Buy</option>
+                                        <option value="Suggestions">Suggestions</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="add" name="add" class="form-control" placeholder="Your Address 1 *" id="address" required="">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="zip" name="zip" class="form-control" placeholder="Your Zip/Postal Code *" id="zip" required="">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                     <div class="form-group">
+                                        <input type="tel" name="tel" class="form-control" placeholder="(Optional) Your Phone" id="phone" required="">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
@@ -54,9 +88,15 @@
                         </p>
                         <p style="color:#fff;"><strong><i class="fa fa-phone"></i> Skype ID</strong><br>
                             Plantains.com</p>
-                        <p style="color:#fff;">
+
+                            <%#= 
+
+                            <p style="color:#fff;">
                             <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
                             info@plantains.com</p>
+
+                            %>
+
                         <p></p>
                     </div>
                 </div>
