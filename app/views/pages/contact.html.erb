@@ -13,27 +13,27 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                    <select data-drupal-selector="edit-field-contact-title" class="form-control required form-control" id="title" name="field_contact_title" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
-                                        <option value="_none">Title *</option>
-                                        <option value="Request">Ms</option>
-                                        <option value="Sales">Mrs</option>
-                                        <option value="Buy">Mr</option>
+                                    <select data-drupal-selector="edit-field-contact-title" class="form-select required form-control" id="title" name="Title" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
+                                        <option value="No Title">Title *</option>
+                                        <option value="Ms">Ms</option>
+                                        <option value="Mrs">Mrs</option>
+                                        <option value="Mr">Mr</option>
                                     </select>
-                                     </div>
+                                    </div>
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Your Full Name *" id="name" required="" data-validation-required-message="Please enter your Full Name.">
+                                        <input type="text" name="Name:" class="form-control" placeholder="Your Full Name *" id="name" required="" data-validation-required-message="Please enter your Full Name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="company" class="form-control" placeholder="Your Company *" id="name" required="" data-validation-required-message="Please enter your Company Name.">
+                                        <input type="text" name="Company:" class="form-control" placeholder="Your Company *" id="name" required="" data-validation-required-message="Please enter your Company Name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                        <input type="email" name="Email:" class="form-control" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="country" class="form-control" placeholder="Your Country *" id="name" required="" data-validation-required-message="Please enter your country.">
+                                        <input type="text" name="Country" class="form-control" placeholder="Your Country *" id="name" required="" data-validation-required-message="Please enter your country.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
@@ -41,18 +41,18 @@
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="skype" class="form-control" placeholder="(Optional) Your Skype ID *" id="name">
+                                        <input type="text" name="SkypeID" class="form-control" placeholder="(Optional) Your Skype ID *" id="name">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea class="form-control" name="Message" placeholder="Your Message *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                    <select data-drupal-selector="edit-field-contact-subject" class="form-select required form-control" id="subject" name="field_contact_subject" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
-                                        <option value="_none">Subect *</option>
+                                    <select data-drupal-selector="edit-field-contact-subject" class="form-select required form-control" id="subject" name="Subject" required="required" aria-required="true" title data-toggle="tooltip" data-original-title>
+                                        <option value="No Subject">Subect *</option>
                                         <option value="Request">Request</option>
                                         <option value="Sales">Sales</option>
                                         <option value="Buy">Buy</option>
@@ -61,15 +61,15 @@
                                     </select>
                                     </div>
                                     <div class="form-group">
-                                        <input type="add" name="add" class="form-control" placeholder="Your Address 1 *" id="address" required="">
+                                        <input type="add" name="Address:" class="form-control" placeholder="Your Address 1 *" id="address" required="">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="zip" name="zip" class="form-control" placeholder="Your Zip/Postal Code *" id="zip" required="">
+                                        <input type="zip" name="Zip/Postal Code:" class="form-control" placeholder="Your Zip/Postal Code *" id="zip" required="">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                      <div class="form-group">
-                                        <input type="tel" name="tel" class="form-control" placeholder="(Optional) Your Phone" id="phone" required="">
+                                        <input type="tel" name="Phone:" class="form-control" placeholder="(Optional) Your Phone" id="phone" required="">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
@@ -86,16 +86,15 @@
                             <strong><i class="fa fa-map-marker"></i> Location</strong><br>
                             Global
                         </p>
-                        <p style="color:#fff;"><strong><i class="fa fa-phone"></i> Skype ID</strong><br>
-                            Plantains.com</p>
 
-                            <%#= 
+                        <%#=
+                            <p style="color:#fff;"><strong><i class="fa fa-phone"></i> Skype ID</strong><br>
+                                Plantains.com</p>
+                                <p style="color:#fff;">
+                                <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
+                                info@plantains.com</p>
 
-                            <p style="color:#fff;">
-                            <strong><i class="fa fa-envelope"></i>  Email Address</strong><br>
-                            info@plantains.com</p>
-
-                            %>
+                        %>
 
                         <p></p>
                     </div>
