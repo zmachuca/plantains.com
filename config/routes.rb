@@ -3,11 +3,15 @@ Rails.application.routes.draw do
 
   get "about" => "pages#about"
   get "services" => "pages#services"
+  get "contact" => "pages#contact"
+
   get "ecuador" => "pages#ecuador"
   get "colombia" => "pages#colombia"
   get "nicaragua" => "pages#nicaragua"
   get "guatemala" => "pages#guatemala"
-  get "contact" => "pages#contact"
+  get "costarica" => "pages#costarica"
+
+  get "plantains" => "pages#plantains"
 
   get "terms" => "pages#terms"
   get "privacy" => "pages#privacy"
