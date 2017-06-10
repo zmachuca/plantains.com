@@ -240,15 +240,30 @@ section#contact .text-danger {
   margin-right: auto;
 }
 
+// Services
+
+.services-photo {
+  width: 100%;
+  height: auto;
+}
+
+.services-contents h2 {
+  text-align: center;
+}
+
+.services-contents h1 {
+  text-align: center;
+}
+
 // Ecuador
 
 .ecuador-products p {
   font-size: 15.5px;
 }
 
-.ecuador-photo {
+.ecuador-product-photo {
   height: 390px;
-  width: 350px;
+  width: 360px;
   float: right;
 }
 

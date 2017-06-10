@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "services" => "pages#services"
   get "contact" => "pages#contact"
+  get "directory" => "pages#directory"
 
   get "ecuador" => "pages#ecuador"
   get "colombia" => "pages#colombia"
@@ -12,6 +13,8 @@ Rails.application.routes.draw do
   get "costarica" => "pages#costarica"
 
   get "plantains" => "pages#plantains"
+  get "malanga" => "pages#malanga"
+  get "mangos" => "pages#mangos"
 
   get "terms" => "pages#terms"
   get "privacy" => "pages#privacy"
