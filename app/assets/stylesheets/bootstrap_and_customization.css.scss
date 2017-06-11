@@ -265,8 +265,8 @@ section#contact .text-danger {
 
 .ecuador-product-photo {
   height: 390px;
-  width: 360px;
-  float: right;
+  display: block;
+  max-width: 100%;
 }
 
 .ecuador-products {
