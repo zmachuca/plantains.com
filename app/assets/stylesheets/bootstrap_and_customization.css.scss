@@ -123,6 +123,10 @@ img.sellers-photo {
 
 // PACA
 
+.paca-contents p {
+  font-size: 15.5px;
+}
+
 .paca-contents h1 {
   text-align: center;
 }
@@ -227,8 +231,6 @@ section#contact .text-danger {
 
 .about-us p {
   font-size: 15.5px;
-
-
 }
 
 .about-us-photo {
@@ -243,6 +245,10 @@ section#contact .text-danger {
 }
 
 // Services
+
+.services-contents p {
+  font-size: 15.5px;
+}
 
 .services-photo {
   width: 100%;
@@ -276,6 +282,10 @@ section#contact .text-danger {
 
 // Ecuador Plantain Nutrition
 
+.plantains-contents p {
+  font-size: 15.5px;
+}
+
 .plantain-nutrition-photo {
    width: 100%;
   height: auto;
@@ -288,12 +298,20 @@ section#contact .text-danger {
 
 // Ecuador Malanga Nutrition
 
+.malanga-contents p {
+  font-size: 15.5px;
+}
+
 .malanga-nutrition-photo {
   width: 100%;
   height: auto;
 }
 
 // Ecuador Mangos Nutrition
+
+.mangos-contents p {
+  font-size: 15.5px;
+}
 
 .mango-nutrition-photo {
   width: auto;
@@ -344,6 +362,12 @@ section#contact .text-danger {
 
 .plantains-contents h1 {
   text-align: center;
+}
+
+// Directory
+
+.directory-contents p {
+  font-size: 15.5px;
 }
 
 
