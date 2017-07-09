@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get "costarica" => "pages#costarica"
 
   get "plantains" => "pages#plantains"
+  get "bananas" => "pages#bananas"
   get "malanga" => "pages#malanga"
   get "mangos" => "pages#mangos"
 
