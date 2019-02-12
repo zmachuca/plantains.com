@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "services" => "pages#services"
   get "contact" => "pages#contact"
-  get "wholesale" => "pages#wholesale"
+  get "dogs" => "pages#dogs"
   get "paca" => "pages#paca"
   get "directory" => "pages#directory"
 
