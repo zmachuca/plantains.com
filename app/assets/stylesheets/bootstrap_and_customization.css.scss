@@ -75,7 +75,19 @@ img.home-bg{
 
 // Home Bottom Content
 
+.product-row{
+  background-color: #ecf0f1;
+  margin-top: -10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
+img.product-photo {
+  width: 250px;
+  height: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 
 
@@ -245,8 +257,8 @@ section#contact .text-danger {
 }
 
 img.history-photo {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   float: right;
   padding: 10px;
 }
